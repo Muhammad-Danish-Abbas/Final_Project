@@ -10,7 +10,7 @@ A serverless, event-driven data pipeline built for the Data Engineering Hackatho
 
 ## Architecture
 
-![Architecture diagram](docs/architecture.png)
+![Architecture diagram](architecture.png)
 
 **Flow in one line:**
 three sources → Lambda (every minute) → S3 `raw/` → SNS (standard) → router Lambda → SNS FIFO topic → three SQS FIFO queues → three processors → three destinations.
