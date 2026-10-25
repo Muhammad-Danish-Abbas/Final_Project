@@ -122,11 +122,11 @@ Secrets are set as Lambda environment variables. Never commit real values to Git
 
 ## Results
 
-![S3 bucket](docs/s3-bucket.png)
-![Lambda functions](docs/lambda-functions.png)
-![SNS topics](docs/sns-topics.png)
-![SQS queues](docs/sqs-queues.png)
-![Snowflake row count](docs/snowflake-count.png)
+![S3 bucket](s3-bucket.png)
+![Lambda functions](lambda-functions.png)
+![SNS topics](sns-topics.png)
+![SQS queues](sqs-queues.png)
+![Snowflake row count](snowflake-count.png)
 
 - S3 bucket has the `raw/`, `processed/`, and `layers/` folders.
 - Two SNS topics (one standard, one FIFO) and three SQS FIFO queues are in place.
